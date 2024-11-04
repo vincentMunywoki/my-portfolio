@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I am a tech enthusiast with a strong belief in the transformative power 
+                    <p>I am a tech enthusiast with a strong belief in the transformative po-wer 
                         of technology to shape the future. My journey has led me to explore and 
                         grow my expertise in software development, cloud infrastructure, and UX/UI design, 
                         where I constantly seek new challenges to learn and innovate. I embrace each day as 

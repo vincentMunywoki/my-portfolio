@@ -50,3 +50,16 @@
     align-items: center;
     transition: 0.3s;
 }
+.about-skill p{
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg #DF8908 -5.09%, #2326e1 106.28%);
+}

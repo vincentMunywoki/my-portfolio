@@ -13,11 +13,11 @@ const Services = () => {
         </div>
         <div className="Services-container">
             {Services_Data.map((service,index)=>{
-                return <div key={index} className="services-format">
+                return <div key={index} className="Services-format">
                     <h3>{service.s_no}</h3>
                     <h2>{service.s_name}</h2>
                     <p>{service.s_desc}</p>
-                    <div className="services-readmore">
+                    <div className="Services-readmore">
                         <p>Read More</p>
                         <img src={arrow_icon} alt="" />
                     </div>

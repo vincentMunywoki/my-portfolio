@@ -1,6 +1,28 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
 .hero img {
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Make height the same as width to keep it circular */
+    width: 200px; 
+    height: 200px; 
+    margin-top: 150px;
     border-radius: 50%; /* Rounds the image */
     object-fit: cover; /* Ensures the image fills the circle shape */
+}
+
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.hero h1 span{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

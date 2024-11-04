@@ -1,0 +1,6 @@
+.hero img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Make height the same as width to keep it circular */
+    border-radius: 50%; /* Rounds the image */
+    object-fit: cover; /* Ensures the image fills the circle shape */
+}

@@ -5,6 +5,13 @@
     margin: 20px 170px;
 }
 
+.navbar img {
+    width: 110px; /* Adjust the size as needed */
+    height: 50px; /* Make height the same as width to keep it circular */
+    border-radius: 10%; /* Rounds the image */
+    /*object-fit: cover; /* Ensures the image fills the circle shape */
+}
+
 .nav-menu{
     display: flex;
     align-items: center;

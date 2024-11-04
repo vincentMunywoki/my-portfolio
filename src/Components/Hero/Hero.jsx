@@ -8,6 +8,10 @@ const Hero = () => {
         <img src={profile_img} alt="" />
         <h1>I am Vincent Munywoki, frontend developer based in Kenya</h1>
         <p>I am a frontend developer intermediate from Nairobi, Kenya with 2 years of experience.</p>
+        <div className="hero-action">
+            <div className="hero-connect">Connect with me</div>
+            <div className="hero-resume">My Resume</div>
+        </div>
     </div>
   )
 }

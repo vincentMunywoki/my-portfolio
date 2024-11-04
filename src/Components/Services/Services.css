@@ -6,3 +6,18 @@
     gap: 80px;
     margin: 80px 170px;
 }
+
+.Services-title{
+    position: relative;
+}
+.Services-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.Services-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

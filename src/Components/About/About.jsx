@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I am a tech enthusiast with a strong belief in the transformative po-wer 
+                    <p>I am a tech enthusiast with a strong belief in the transformative power 
                         of technology to shape the future. My journey has led me to explore and 
                         grow my expertise in software development, cloud infrastructure, and UX/UI design, 
                         where I constantly seek new challenges to learn and innovate. I embrace each day as 
@@ -33,6 +33,22 @@ const About = () => {
                     <div className="about-skill"><p>Python</p><hr style={{width:"70%"}} /></div>
                     <div className="about-skill"><p>Node Js</p><hr style={{width:"50%"}} /></div>
                 </div>
+            </div>
+        </div>
+        <div className="about-achievements">
+            <div className="about-achievement">
+                <h1>2+</h1>
+                <p>YEARS OF EXPERIENCE</p>
+            </div>
+            <hr />
+            <div className="about-achievement">
+                <h1>20+</h1>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+            <hr />
+            <div className="about-achievement">
+                <h1>2+</h1>
+                <p>HAPPY CLIENTS</p>
             </div>
         </div>
     </div>

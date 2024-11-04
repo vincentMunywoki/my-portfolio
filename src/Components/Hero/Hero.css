@@ -8,7 +8,7 @@
 .hero img {
     width: 200px; 
     height: 200px; 
-    margin-top: 150px;
+    margin-top: 100px;
     border-radius: 50%; /* Rounds the image */
     object-fit: cover; /* Ensures the image fills the circle shape */
 }
@@ -16,8 +16,8 @@
 .hero h1{
     text-align: center;
     width: 70%;
-    font-size: 90px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 500;
 }
 
 .hero h1 span{
@@ -44,14 +44,14 @@
 }
 
 .hero-connect{
-    padding: 25px;
+    padding: 20px;
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #2326e1 106.28%);
     cursor: pointer;
 }
 
 .hero-resume{
-    padding: 25px 75px;
+    padding: 20px 75px;
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;

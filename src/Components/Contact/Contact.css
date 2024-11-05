@@ -40,7 +40,14 @@
 }
 .contact-left p{
     max-width: 550px;
-    color: #DF8908;
+    color: #D8D8D8;
     font-size: 20px;
     line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 22px;
 }

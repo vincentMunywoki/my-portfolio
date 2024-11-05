@@ -51,3 +51,55 @@
     color: #D8D8D8;
     font-size: 22px;
 }
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.contact-right label{
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
+}
+.contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}    
+.contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-submit{
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

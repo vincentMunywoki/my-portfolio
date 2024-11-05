@@ -13,9 +13,8 @@ const Footer = () => {
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
-                    <p>Suggest an Update</p>
                     <img src={user_icon} alt="" />
-                    <textarea name="text" rows="5" placeholder='Share your suggeston here...'></textarea>
+                    <textarea name="text" rows="1" placeholder='Share your suggeston here...'></textarea>
                 </div>
                 <div className="foter-subscribe">Subscribe</div>
             </div>        

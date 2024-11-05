@@ -1,6 +1,41 @@
+.footer{
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left p{
+    font-size: 20px;
+    max-width: 400px;
+}
+
 .footer-top-left img {
     width: 110px; /* Adjust the size as needed */
     height: 50px; /* Make height the same as width to keep it circular */
     border-radius: 10%; /* Rounds the image */
     /*object-fit: cover; /* Ensures the image fills the circle shape */
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.footer-email-input{
+    display: flex;
+    gap: 30px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background: #32323B;
+}
+.footer-email-input textarea{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 18px;
 }

@@ -16,7 +16,7 @@ const Footer = () => {
                     <img src={user_icon} alt="" />
                     <textarea name="text" rows="1" placeholder='Share your suggeston here...'></textarea>
                 </div>
-                <div className="foter-subscribe">Subscribe</div>
+                <div className="footer-subscribe">Subscribe</div>
             </div>        
         </div>
         <hr />

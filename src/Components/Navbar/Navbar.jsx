@@ -15,13 +15,13 @@ const Navbar = () => {
       </div>
 
       <ul className="nav-menu">
-        <li><p onClick={()=>setMenu("home")} >Home</p>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
-        <li><p onClick={()=>setMenu("about")} >About Me</p>{menu==="about"?<img src={underline} alt=''/>:<></>}</li>
-        <li><p onClick={()=>setMenu("services")} >Services</p>{menu==="services"?<img src={underline} alt=''/>:<></>}</li>
-        <li><p onClick={()=>setMenu("work")} >Portfolio</p>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
-        <li><p onClick={()=>setMenu("contact")} >Contact</p>{menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
+        <li><a className='anchor-link' href='#home' > <p onClick={()=>setMenu("home")} >Home</p> </a>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
+        <li><a className='anchor-link' offset={50} href='#about' > <p onClick={()=>setMenu("about")} >About Me</p> </a>{menu==="about"?<img src={underline} alt=''/>:<></>}</li>
+        <li><a className='anchor-link' offset={50} href='#services' > <p onClick={()=>setMenu("services")} >Services</p> </a>{menu==="services"?<img src={underline} alt=''/>:<></>}</li>
+        <li><a className='anchor-link' offset={50} href='#work' > <p onClick={()=>setMenu("work")} >Portfolio</p> </a>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
+        <li><a className='anchor-link' offset={50} href='#contact' > <p onClick={()=>setMenu("contact")} >Contact</p> </a>{menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
       </ul>
-      <div className="nav-connect">Connect with Me</div>
+      <div className="nav-connect"> <a className='anchor-link' offset={50} href="#contact" >Connect with Me </a></div>
     </div>
   );
 };

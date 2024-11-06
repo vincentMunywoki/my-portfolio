@@ -45,6 +45,11 @@
     height: 10px;
     position: relative;
 }
-.nav-menu li:hover{
+
+.anchor-link{
+    text-decoration: none;
+    color: #fff;
+}
+.anchor-link :hover{
     color: #ff00ff;
 }

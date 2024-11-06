@@ -87,4 +87,8 @@
         font-weight: 500;
         margin-bottom: 50px;
     }
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
 }

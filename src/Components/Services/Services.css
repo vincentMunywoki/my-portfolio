@@ -94,4 +94,11 @@
         line-height: 32px;
         max-width: 300px;
     }
+    .Services-readmore img{
+        width: 20px;
+    }
+    .Services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }

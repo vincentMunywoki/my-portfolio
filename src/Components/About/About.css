@@ -111,4 +111,10 @@
         width: 130px;
         right: -30px;
     }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
 }

@@ -87,6 +87,11 @@
         padding: 32px;
     }
     .Services-format h2{
-        
+        font-size: 20px;
+    }
+    .Services-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
     }
 }

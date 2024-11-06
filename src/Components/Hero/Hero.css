@@ -64,3 +64,15 @@
 .hero-resume:hover{
     border-color: #2326e1;
 }
+@media (max-width:768px){
+    .hero img{
+        margin-bottom: 120px;
+        width: 260px;  
+        height: 260px;      
+    }   
+    .hero h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    } 
+}

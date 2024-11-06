@@ -63,5 +63,14 @@
 .footer-subscribe:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
 
+@media (mx-width:768px) {
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
 }

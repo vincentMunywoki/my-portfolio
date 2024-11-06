@@ -131,4 +131,14 @@
     .about-skill hr{
         height: 6px;
     }
+    .about-achievements{
+        justify-content: space-between;
+    }
+    .about-achievement{
+        gap: 10px;
+    }
+    .about-achievement h1{
+        font-size: 34px;
+        font-weight: 700;
+    }
 }

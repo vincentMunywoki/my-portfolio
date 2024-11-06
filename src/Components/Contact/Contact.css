@@ -127,4 +127,10 @@
     .contact-left p{
         font-size: 18px;
     }
+    .contact-detail {
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 24px;
+    }
 }

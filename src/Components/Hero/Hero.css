@@ -66,7 +66,7 @@
 }
 @media (max-width:768px){
     .hero img{
-        margin-bottom: 120px;
+        margin-bottom: 70px;
         width: 260px;  
         height: 260px;      
     }   
@@ -75,4 +75,10 @@
         width: 90%;
         font-size: 50px;
     } 
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
 }

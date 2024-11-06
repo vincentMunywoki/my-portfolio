@@ -1,5 +1,5 @@
 // type rafce to convert navbar file to component.
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import underline from '../../assets/nav_underline.svg'

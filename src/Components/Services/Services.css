@@ -82,4 +82,11 @@
         width: 130px;
         margin-right: -20px;
     }
+    .Services-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .Services-format h2{
+        
+    }
 }

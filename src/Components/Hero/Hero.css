@@ -81,4 +81,10 @@
         line-height: 32px;
         margin: 10px 0px;
     }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
 }

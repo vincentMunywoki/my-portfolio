@@ -60,4 +60,10 @@
         margin: 50px 70px;
         align-items: start;
     }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
 }

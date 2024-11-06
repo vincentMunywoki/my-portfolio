@@ -70,7 +70,14 @@
         margin: 50px 70px;
     }
     .footer-top{
+        display: none;
+       /* display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 50px; */
+    }
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
     }
 }

@@ -21,7 +21,7 @@
 }
 
 .hero h1 span{
-    background: linear-gradient(270deg, #DF8908 10%, #2326e1 100%);
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,7 +46,7 @@
 .hero-connect{
     padding: 20px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #2326e1 106.28%);
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .hero-resume:hover{
-    border-color: #2326e1;
+    border-color: #B415FF
 }
 @media (max-width:768px){
     .hero img{

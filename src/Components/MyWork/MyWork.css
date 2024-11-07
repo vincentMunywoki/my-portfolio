@@ -27,8 +27,10 @@
 }
 .mywork-container img{
     box-sizing: border-box;
+    border-radius: 10px;
     width: 419px;
     height: 280px;
+    object-fit: contain;
     transition: 0.3s;
     cursor: pointer;
 }

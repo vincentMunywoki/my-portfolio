@@ -162,9 +162,8 @@
     .contact{
         gap: 20px;
         align-items: center;
-        align-content: center;
     }
     .contact-title h1{
-        align-items: start;
+        padding-left: 2px;
     }
 }

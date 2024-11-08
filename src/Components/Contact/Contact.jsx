@@ -4,6 +4,7 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import vincent_resume from '../../assets/Vincent_resume.pdf'
 
 const Contact = () => {
 
@@ -55,6 +56,9 @@ const Contact = () => {
                     <div className="contact-detail"> 
                         <img src={location_icon} alt="" /> 
                         <p>Nairobi, Kenya</p>
+                    </div>
+                    <div className="hero-resume">
+                        <a href={vincent_resume} download>Download Resume</a> 
                     </div>
                 </div>
             </div>

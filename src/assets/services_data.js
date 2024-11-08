@@ -6,8 +6,8 @@ const Services_Data = [
     },
     {
         s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"UI/UX Design",
+        s_desc:"I design intuitive and user-centered interfaces, enhancing the usability and aesthetic appeal of digital products."
     },
     {
         s_no:"03",

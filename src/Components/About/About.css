@@ -27,6 +27,9 @@
     display: flex;
     gap: 80px;
 }
+.about-sections img{
+    border-radius: 20px 30px 50px 0px;
+}
 .about-right{
     display: flex;
     flex-direction: column;

@@ -56,8 +56,9 @@
     align-items: center;
     gap: 20px;
 }
-.hero-resume{
+.hero-resum{
     padding: 20px 75px;
+    align-items: center;
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;

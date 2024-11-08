@@ -57,7 +57,7 @@ const Contact = () => {
                         <img src={location_icon} alt="" /> 
                         <p>Nairobi, Kenya</p>
                     </div>
-                    <div className="hero-resume">
+                    <div className="hero-resum">
                         <a href={vincent_resume} download>Download Resume</a> 
                     </div>
                 </div>

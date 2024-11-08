@@ -23,9 +23,9 @@ const Footer = () => {
         <div className="footer-bottom">
             <p className="footer-bottom-left">@ 2024 Vincent Munywoki. All rights reserved.</p>
             <div className="footer-bottom-right">
-                <p>Term of services</p>
-                <p>Privacy policy</p>
-                <p>Connect with me</p>
+            <a className='anchor-link' href="#"><p>Term of services</p></a>
+                <a className='anchor-link' href="#"><p>Privacy policy</p></a>
+                <a className='anchor-link' href="#contact"><p>Connect with me</p></a> 
             </div>
         </div>
     </div>

@@ -56,12 +56,14 @@
     align-items: center;
     gap: 20px;
 }
-.hero-resum{
+.hero-resume{
     padding: 20px 75px;
-    align-items: center;
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;
+}
+.hero-resume a{
+    align-items: center;    
 }
 .contact-right{
     display: flex;

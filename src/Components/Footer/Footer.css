@@ -81,3 +81,12 @@
         margin-bottom: 50px;
     }
 }
+@media (max-width:450px) {
+    .footer{
+        gap: 20px;
+        align-items: center;
+    }
+    .footer-bottom{
+        align-items: center;
+    }
+}    

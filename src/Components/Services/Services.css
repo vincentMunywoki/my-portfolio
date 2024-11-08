@@ -102,3 +102,10 @@
         gap: 30px;
     }
 }
+@media (max-width:450px) {
+    .Services{
+        gap: 20px;
+        align-items: center;
+        align-content: center;
+    }
+}

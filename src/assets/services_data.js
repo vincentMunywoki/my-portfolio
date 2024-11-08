@@ -1,8 +1,8 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Frontend Web Development",
+        s_desc:"I create responsive and visually appealing websites that offer excellent user experiences."
     },
     {
         s_no:"02",

@@ -25,6 +25,7 @@ const About = () => {
                     I'm constantly exploring new design trends and best practices to ensure my projects stand out and meet user needs effectively.</p>
                 </div>
                 <div className="about-skills">
+                    <div className="about-skill"><p>My Skills</p></div>
                     <div className="about-skill"><p>React Js</p><hr style={{width:"65%"}} /></div>
                     <div className="about-skill"><p>Javascript</p><hr style={{width:"75%"}} /></div>
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"90%"}} /></div>

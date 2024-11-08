@@ -29,8 +29,8 @@
     box-sizing: border-box;
     border-radius: 10px;
     width: 419px;
-    height: 280px;
-    object-fit: contain;
+    height: 280px;    
+    object-fit: cover;
     transition: 0.3s;
     cursor: pointer;
 }
